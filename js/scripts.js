@@ -1,5 +1,11 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
+    var person1Input = $("input#person1").val();
+    var person2Input = $("input#person2").val();
+    var animalInput = $("input#animal").val();
+    var exclamationInput = $("input#exclamation").val();
+    var verbalInput = $("input#verb").val();
+    var nounImnput = $("input#noun").val();
     
 
     $(".person1").append("blah blah");
